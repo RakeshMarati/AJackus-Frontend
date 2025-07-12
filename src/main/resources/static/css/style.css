@@ -94,12 +94,24 @@ h1 {
   font-size: 14px;
 }
 .edit-btn {
-  background: #1976d2;
+  background: #00bcd4;
   color: #fff;
+  box-shadow: 0 2px 8px rgba(0,188,212,0.08);
+  transition: background 0.2s, box-shadow 0.2s;
+}
+.edit-btn:hover {
+  background: #0097a7;
+  box-shadow: 0 4px 16px rgba(0,188,212,0.16);
 }
 .delete-btn {
-  background: #e53935;
+  background: #ff5252;
   color: #fff;
+  box-shadow: 0 2px 8px rgba(255,82,82,0.08);
+  transition: background 0.2s, box-shadow 0.2s;
+}
+.delete-btn:hover {
+  background: #d32f2f;
+  box-shadow: 0 4px 16px rgba(255,82,82,0.16);
 }
 #add-employee-btn {
   display: block;
@@ -233,10 +245,10 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #f5faff;
+  background: #a9d0ea;
   border-bottom: 1px solid #e0e0e0;
   padding: 12px 32px;
-  margin-bottom: 24px;
+  margin-bottom: 14px;
 }
 .header-left {
   display: flex;
@@ -252,9 +264,9 @@ h1 {
   align-items: center;
 }
 .ajackus-link {
-  color: #1976d2;
+  color: #1565c0;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 15px;
   transition: color 0.2s;
 }
