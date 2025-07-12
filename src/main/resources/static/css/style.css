@@ -229,6 +229,52 @@ h1 {
   padding: 40px;
 }
 
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f5faff;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 12px 32px;
+  margin-bottom: 24px;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+}
+.ajackus-logo {
+  height: 36px;
+  width: auto;
+  display: block;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+}
+.ajackus-link {
+  color: #1976d2;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  transition: color 0.2s;
+}
+.ajackus-link:hover {
+  color: #0d47a1;
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  .main-header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 8px;
+    gap: 8px;
+  }
+  .header-right {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
+
 @media (max-width: 768px) {
   #app {
     padding: 16px 4px;

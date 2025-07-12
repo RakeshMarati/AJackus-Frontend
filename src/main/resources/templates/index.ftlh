@@ -7,6 +7,14 @@
     <link rel="stylesheet" href="/static/css/style.css">
 </head>
 <body>
+    <header class="main-header">
+        <div class="header-left">
+            <img src="https://ajackus.com/wp-content/uploads/2022/06/ajackus-logo.svg" alt="Ajackus Logo" class="ajackus-logo">
+        </div>
+        <div class="header-right">
+            For more information visit&nbsp;<a href="https://www.ajackus.com" target="_blank" rel="noopener" class="ajackus-link">www.ajackus.com</a>
+        </div>
+    </header>
     <div id="app">
         <h1>Employee Directory</h1>
         
